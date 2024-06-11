@@ -1,0 +1,113 @@
+/* Geral */
+body {
+    font-family: 'Outfit', sans-serif;
+    background-image: url("../image/OIG1.baFbq_CX_.jpeg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-size: cover; /* Alterado de 'cover' para 'contain' */
+    background-position: center; /* Opcional: centraliza a imagem */
+    margin: 0;
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+/* Título */
+h1 {
+    color: #0b08c5;
+    font-family: 'Bungee Outline', sans-serif;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px #d0d0d0;
+    justify-content: center;
+    font-size: 2.5rem; /* Altere o valor conforme necessário para ajustar o tamanho */
+}
+
+
+
+
+h2 {
+    color: #ffffff;
+    font-family: 'Outifit', sans-serif;
+    margin-bottom: 1.5rem;
+    text-shadow: 3px 2px #fd0404;
+    font-size: 1.5rem;
+}
+
+h3 {
+    color: #66f00b;
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 1.5rem;
+    text-shadow: 3px 2px #000000;
+    font-size: 1.5rem;
+}
+
+h4 {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs */
+input {
+    flex: 1 0 10rem;
+    padding: 0.75rem;
+    border: 2px solid #0b08c5;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #35ff02;
+    outline: none;
+}
+
+/* Botões */
+button {
+    flex: 1 0 5rem;
+    padding: 0.75rem;
+    background-color: rgb(53, 255, 2);
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #2eb702;
+    transform: scale(1.05);
+
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.soon-message {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}   
